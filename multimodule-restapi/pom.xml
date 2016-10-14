@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>multimodule-domain</artifactId>
+            <version>0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>fish.payara.extras</groupId>
+            <artifactId>payara-micro</artifactId>
+        </dependency>
+    </dependencies>
+
+    <parent>
+        <groupId>com.example</groupId>
+        <artifactId>multimodule</artifactId>
+        <version>0.1</version>
+    </parent>
+
+    <groupId>com.example</groupId>
+    <artifactId>multimodule-restapi</artifactId>
+    <version>0.1</version>
+    <packaging>war</packaging>
+
+</project>
